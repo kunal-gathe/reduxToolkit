@@ -1,0 +1,72 @@
+.navbar-container {
+  justify-content: center;
+  text-align: center;
+}
+.navbar-container h4 {
+  font-weight: 100;
+}
+.navbar-container p {
+  font-weight: 100;
+  color: rgb(161, 161, 161);
+  font-size: 5rem;
+  margin: 0;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.navbar ul h5 {
+  padding: 0 2rem;
+  color: rgb(161, 161, 161);
+  font-size: 2rem;
+}
+.user-container {
+  width: 45%;
+  margin: auto;
+}
+.user-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-flex h2 {
+  color: rgb(161, 161, 161);
+}
+.user-flex button {
+  padding: 0.5rem 1rem;
+  background: linear-gradient(to bottom, #33ccff 0%, #3333ff 100%);
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #fff;
+}
+.user-flex-delete {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.delete-btn{
+  padding: 0.5rem 1rem;
+  background: linear-gradient(to bottom, #ff9933 0%, #ff3300 100%);
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+.flex li{
+  font-size: 1.2rem;
+  color: rgb(161, 161, 161);
+  list-style: none;
+}
+.delete{
+  color:red;
+  font-size: 1.5rem;
+}
